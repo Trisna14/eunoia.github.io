@@ -10,6 +10,7 @@
 /* import local css */
 @import url('header/header.css');
 @import url('home-content/home-content.css');
+@import url('footer/footer.css');
 
 * {
     /* border: 1px solid black; */

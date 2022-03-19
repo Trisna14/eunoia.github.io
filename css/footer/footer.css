@@ -1,0 +1,17 @@
+footer {
+    background-color: rgb(27, 27, 27);
+    position: relative;
+}
+
+footer .footer {
+    color: white;
+    padding: 10px 20px;
+    text-align: right;
+    font-size: 14px;
+    color: whitesmoke;
+    letter-spacing: 1px;
+}
+
+footer .footer a {
+    color: white;
+}
