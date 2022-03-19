@@ -43,6 +43,7 @@
 #home-content .rows-content .post-content .content {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 65px;
 }
 
 #home-content .rows-content .post-content .content .poster {
@@ -69,7 +70,7 @@
 
 #home-content .rows-content .post-content .content .opening .title a {
     text-transform: capitalize;
-    font-size: 28px;
+    font-size: 38px;
     color: rgb(37, 90, 134);
     font-weight: lighter;
 }
