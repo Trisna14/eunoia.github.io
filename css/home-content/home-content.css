@@ -1,0 +1,122 @@
+#home-content {
+    min-height: 600px;
+    /* border: 1px solid black; */
+    /* background-color: red; */
+}
+
+#home-content .rows-content {
+    padding: 40px 0;
+}
+
+#home-content .rows-content .marker {
+    text-transform: capitalize;
+    /* border: 1px solid black; */
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    /* position: relative; */
+    color: rgb(56, 56, 56);
+}
+
+#home-content .rows-content .marker::after {
+    content: '';
+    border: 1px solid black;
+    display: block;
+    /* position: absolute; */
+    width: 70px;
+    margin: auto;
+    margin-top: 10px;
+    /* border-radius: 100%; */
+    padding: 1px;
+    background-color: black;
+}
+
+#home-content .rows-content .post-content {
+    /* border: 1px solid black; */
+    min-height: 200px;
+   
+    margin: auto;
+    margin-top: 70px;
+    width: 1100px;
+}
+
+#home-content .rows-content .post-content .content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#home-content .rows-content .post-content .content .poster {
+    /* flex: 2; */
+    /* border: 1px solid rgb(250, 16, 16); */
+    width: 290px;
+    height: 240px;
+
+}
+
+#home-content .rows-content .post-content .content .poster img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    filter: grayscale(40%);
+}
+
+#home-content .rows-content .post-content .content .opening {
+    /* border: 1px solid black; */
+    flex: 4;
+    padding: 0 0px 0 20px;
+    position: relative;
+}
+
+#home-content .rows-content .post-content .content .opening .title a {
+    text-transform: capitalize;
+    font-size: 28px;
+    color: rgb(37, 90, 134);
+    font-weight: lighter;
+}
+
+#home-content .rows-content .post-content .content .opening .subtitle {
+    font-size: 16px;
+    display: block;
+    padding: 4px;
+    font-weight: bold;
+}
+
+#home-content .rows-content .post-content .content .opening .date {
+    display: block;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: rgb(75, 74, 74);
+}
+
+#home-content .rows-content .post-content .content .opening .main-content {
+    font-size: 14px;
+    margin-top: 14px;
+    color: rgb(68, 68, 68);
+    text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #home-content .rows-content .post-content {
+        padding: 14px;
+        width: 100%;
+    }
+
+    #home-content .rows-content .post-content .content {
+        display: block;
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+
+    #home-content .rows-content .post-content .content .poster {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    #home-content .rows-content .post-content .content .opening {
+        padding: 0;
+    }
+}

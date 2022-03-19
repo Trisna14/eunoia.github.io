@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Courgette', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+/* font-family: 'Gloria Hallelujah', cursive; */
+
+/* import local css */
+@import url('header/header.css');
+@import url('home-content/home-content.css');
+
+* {
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {text-decoration: none;color: black;}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
