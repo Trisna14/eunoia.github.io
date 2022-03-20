@@ -65,9 +65,37 @@
     color: steelblue;
 }
 
+/* navbar knob */
+.navbar_knob {
+    display: inline-block;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    /* border: 1px solid rgb(19, 18, 18); */
+    color: rgb(138, 132, 132);
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: none;
+}
+
+.navbar_knob:hover {color: black;}
+
 @media only screen and (max-width: 600px) {
     
+    .navbar_knob {
+        display: inline-block;
+    }
+
+    
+
     .navbar {
         transform: translateX(-100%);
+        transition: 0.8s all;
+    }
+
+    .knob_show {
+        transform: translateX(0);
     }
 }
