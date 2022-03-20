@@ -12,6 +12,7 @@
 @import url('home/home.css');
 @import url('footer/footer.css');
 @import url('view/view.css');
+@import url('comments/comments.css');
 
 * {
     /* border: 1px solid black; */
