@@ -2,10 +2,17 @@
     /* width: 200px; */
     /* border: 1px solid black; */
     min-height: 100vh;
+    height: 100vh;
     background-color: rgba(227, 235, 241, 0.493);
     /* padding: 16px; */
+    /* position: absolute; */
+
     position: fixed;
+    overflow-y: scroll;
+    display: block;
     border: 1px solid rgba(107, 163, 209, 0.089);
+    /* overflow: scroll; */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
 }
 
 
@@ -27,6 +34,25 @@
 .navbar .navbar-header .title-navbar a {
     color: rgb(7, 46, 78);
     /* font-family: 'Quicksand', sans-serif; */
+}
+
+.navbar .domain {
+    text-align: center;
+    border-bottom: 1px solid rgba(58, 121, 238, 0.356);
+}
+
+.navbar .domain .domain-name {
+    font-size: 25px;
+    /* text-transform: capitalize; */
+    display: block;
+    margin: 16px 0;
+    color: blue;
+}
+
+.navbar .domain .domain-name a {
+    color: blue;
+    padding: 4px;
+    /* border: 1px solid black; */
 }
 
 .navbar .navbar-body {
