@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+
+@import url('navbar/navbar.css');
+
+* {
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {text-decoration: none;color: black;display: inline-block;}
+
+ul li {list-style-type: none;}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: whitesmoke;
+}

@@ -1,0 +1,73 @@
+.navbar {
+    /* width: 200px; */
+    /* border: 1px solid black; */
+    min-height: 100vh;
+    background-color: rgba(227, 235, 241, 0.493);
+    /* padding: 16px; */
+    position: fixed;
+    border: 1px solid rgba(107, 163, 209, 0.089);
+}
+
+
+.navbar .navbar-header {
+    padding: 17px;
+    background-color: rgba(233, 242, 248, 0.424);
+    border: 1px solid rgba(113, 167, 211, 0.363);
+}
+
+.navbar .navbar-header .title-navbar {
+    font-size: 27px;
+    color: white;
+    text-transform: capitalize;
+   font-weight: bold;
+   letter-spacing: 1px;
+   
+}
+
+.navbar .navbar-header .title-navbar a {
+    color: rgb(7, 46, 78);
+    /* font-family: 'Quicksand', sans-serif; */
+}
+
+.navbar .navbar-body {
+    /* padding: 14px; */
+    margin-top: 50px;
+}
+
+.navbar .navbar-body .navbar-menu ul li {
+    padding: 14px;
+    /* border: 1px solid steelblue; */
+    text-transform: capitalize;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(70, 131, 180, 0.267);
+    font-weight: lighter;
+}
+
+.navbar .navbar-body .navbar-menu .title-menu {
+    /* text-align: center; */
+    font-size: 22px;
+    display: block;
+    text-transform: capitalize;
+    padding-left: 24px;
+    margin-bottom: 8px;
+    color: rgba(93, 93, 93, 0.726);
+}
+
+.navbar .navbar-body .navbar-menu ul li:hover {
+    background-color: rgba(220, 220, 220, 0.822);
+}
+
+/* .navbar .navbar-body .navbar-menu ul li:nth-child(1) {
+    background-color: gainsboro;
+} */
+
+.navbar .navbar-body .navbar-menu ul li a {
+    color: steelblue;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .navbar {
+        transform: translateX(-100%);
+    }
+}

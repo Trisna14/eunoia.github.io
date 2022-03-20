@@ -41,12 +41,13 @@ footer .contact a {
 footer nav {
     text-align: right;
     padding: 8px 30px;
+    color: white;
 }
 
 footer nav a {
     color: white;
     font-size: 13px;
     text-transform: capitalize;
-    margin-right: 14px;
+    margin: 0px 14px;
 }
 
