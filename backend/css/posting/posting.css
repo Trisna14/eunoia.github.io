@@ -1,0 +1,51 @@
+.posting {
+    /* border: 1px solid black; */
+    min-height: 100px;
+}
+
+.posting .locker {
+    background-color: white;
+    padding: 14px;
+}
+
+.posting .locker table {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    font-size: 15px;
+    min-width: 500px;
+    background-color: rgba(245, 245, 245, 0.329);
+}
+
+.posting .locker table thead {
+    /* background-color: ; */
+    border-bottom: 2px solid gainsboro;
+    background-color: rgba(0, 0, 0, 0.562);
+}
+
+.posting .locker table tr th {
+    /* border: 1px solid black; */
+    padding: 6px 8px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: lighter;
+}
+
+.posting .locker table tr:nth-child(2n) {
+    background-color: rgba(195, 186, 186, 0.212);
+}
+
+.posting .locker table tr td {
+    /* border: 1px solid  black; */
+    padding: 6px 8px;
+}
+
+.posting .locker table tr td:nth-child(1) {text-align: center;}
+
+.posting .locker table tr td a {
+    margin: 2px 6px;
+}
+
+@media screen and (max-width: 1280px) {
+
+    
+}
