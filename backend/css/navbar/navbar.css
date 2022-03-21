@@ -13,6 +13,7 @@
     border: 1px solid rgba(107, 163, 209, 0.089);
     /* overflow: scroll; */
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.144);
+    z-index: 50;
 }
 
 
@@ -104,11 +105,12 @@
     cursor: pointer;
     transition: 0.5s;
     display: none;
+    z-index: 51;
 }
 
 .navbar_knob:hover {color: black;}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1280px) {
     
     .navbar_knob {
         display: inline-block;
