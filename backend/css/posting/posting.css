@@ -1,18 +1,22 @@
+/* * {border: 1px solid red;} */
+
 .posting {
     /* border: 1px solid black; */
     min-height: 100px;
+    position: relative;
 }
 
 .posting .locker {
     background-color: white;
     padding: 14px;
+    position: relative;
 }
 
 .posting .locker table {
     /* border: 1px solid black; */
     border-collapse: collapse;
     font-size: 15px;
-    min-width: 500px;
+    /* min-width: 500px; */
     background-color: rgba(245, 245, 245, 0.329);
 }
 
@@ -26,8 +30,12 @@
     /* border: 1px solid black; */
     padding: 6px 8px;
     color: white;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-weight: lighter;
+}
+
+.posting .locker table tr th.title {
+    text-align: left;
 }
 
 .posting .locker table tr:nth-child(2n) {
@@ -39,6 +47,44 @@
     padding: 6px 8px;
 }
 
+.posting .locker table tr td.condition {
+    text-align: center;
+}
+
+.posting .locker table tr td.condition .on {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color: rgb(36, 241, 18);
+    padding: 4px 12px;
+    
+}
+
+.posting .locker table tr td.condition .off {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    background-color: rgb(241, 37, 18);
+    padding: 4px 12px;
+    
+}
+
+.posting .locker table tr td.date {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.posting .locker table tr td.action {
+    text-align: center;
+}
+
+.posting .locker table tr td.action a:nth-child(1){
+    color: rgb(30, 206, 30);
+}
+
+.posting .locker table tr td.action a:nth-child(2) {
+    color: rgb(236, 70, 4);
+}
+
 .posting .locker table tr td:nth-child(1) {text-align: center;}
 
 .posting .locker table tr td a {
@@ -47,5 +93,60 @@
 
 @media screen and (max-width: 1280px) {
 
-    
+    .posting {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .posting .locker {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .posting .locker table {
+        /* width: auto; */
+        /* width: 90%; */
+        /* width: 100px; */
+        width: 100%;
+        /* border: 1px solid black; */
+        /* display: flex; */
+        margin-right: 20px;
+    }
+
+    .posting .locker table tr th.numb ,  .posting .locker table tr td.numb {
+        width: 30px;
+    }
+
+    .posting .locker table tr td.picture {
+        display: none;
+    }
+
+    .posting .locker table tr th.picture {
+        display: none;
+    }
+
+    .posting .locker table tr th.title , .posting .locker table tr td.title {
+        /* border: 1px solid red; */
+        width: 250px;
+    }
+
+    .posting .locker table tr th.subtitle , .posting .locker table tr td.subtitle {
+        display: none;
+    }
+
+    .posting .locker table tr th.condition , .posting .locker table tr td.condition {
+        display: none;
+    }
+
+    .posting .locker table tr th.date , .posting .locker table tr td.date {
+        display: none;
+    }
+
+    /* .posting .locker table tr td.action , .posting .locker table tr th.action {
+        border: 1px solid blue;
+        padding: 4px 4px;
+        width: 50px;
+        padding: 0;
+        display: none;
+    } */
 }
