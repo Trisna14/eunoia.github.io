@@ -51,6 +51,25 @@ header .head .quote {
     text-align: center;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+
+    
+    header {
+        padding: 45px 20px;
+    }
+
+    header .head .thumbnail {
+        width: 300px;
+        height: 300px;
+    }
+
+    header .head .quote {
+        width: 100%;
+        padding: 10px;
+        font-size: 40px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     
     header {

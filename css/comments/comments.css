@@ -102,10 +102,23 @@
     background-color: rgba(0, 0, 0, 0.63);
 }
 
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+
+    .comments {
+        padding: 16px;
+    }
+
+    .comments .form-comment {
+        width: 100%;
+    }
+
+}
+
 @media only screen and (max-width: 600px) {
 
     .comments {
         padding: 16px;
+        margin: 0;
     }
 
     .comments .form-comment {
