@@ -121,6 +121,7 @@
     .navbar {
         transform: translateX(-100%);
         transition: 0.8s all;
+        background-color: rgb(233, 231, 231);
     }
 
     .knob_show {

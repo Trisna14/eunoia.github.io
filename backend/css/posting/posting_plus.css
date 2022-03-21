@@ -1,0 +1,64 @@
+.posting_plus {
+    border: 1px solid rgb(230, 225, 225);
+    min-height: 300px;
+    background-color: white;
+    padding: 10px;
+}
+
+.posting_plus .data-posting {
+
+}
+
+.posting_plus .data-posting input {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    font-weight: lighter;
+    padding: 0 20px;
+    font-size: 14px;
+    outline: none;
+    letter-spacing: 1px;
+    color: rgb(36, 35, 35);
+    background: transparent;
+}
+
+.posting_plus .data-posting .text-input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid gainsboro;
+    background-color: rgba(167, 164, 164, 0.061);
+    margin-bottom: 4px;
+}
+
+.posting_plus .data-posting .file-input input {display: none;}
+.posting_plus .data-posting .file-input {
+    padding: 10px;
+}
+
+.posting_plus .data-posting .file-input .knob-file {
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.posting_plus .data-posting .file-input .knob-file:hover {
+    color: gray;
+}
+
+.posting_plus .data-posting .file-input .poster {
+    width: 300px;
+    height: 300px;
+}
+
+.posting_plus .data-posting .file-input .poster img {width: 100%;height: 100%;}
+
+@media screen and (max-width: 1280px) {
+
+    .posting_plus {
+        margin-top: 40px;
+    }
+
+    .posting_plus .data-posting .file-input .poster {
+        width: 100%;
+    }
+}
