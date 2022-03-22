@@ -93,7 +93,7 @@
         width: 100%;
     }
 
-    .public_table table thead tr th:nth-child(3) , .public_table table tbody tr td:nth-child(3) {
+    .public_table table thead tr th:nth-child(3) , .public_table table tbody tr td:nth-child(3) , .public_table table thead tr th:nth-child(4) , .public_table table tbody tr td:nth-child(4) {
         display: none;
     }
 }
