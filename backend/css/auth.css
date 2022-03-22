@@ -41,6 +41,7 @@
     /* border-left: 4px solid rgb(7, 231, 100); */
     /* padding-left: 8px; */
     position: relative;
+    /* border: 1px solid black; */
 }
 
 .login .wrapper-login .login-header .title-login::after {
@@ -49,6 +50,7 @@
     position: absolute;
     width: 40px;
     margin-top: 4px;
+    bottom: -10px;
     border: 2px solid rgb(20, 251, 20);
 }
 
