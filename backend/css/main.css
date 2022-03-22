@@ -6,6 +6,7 @@
 @import url('home.css/home.css');
 @import url('posting/posting.css');
 @import url('posting/posting_plus.css');
+@import url('posting/posting_change.css');
 
 * {
     /* border: 1px solid black; */

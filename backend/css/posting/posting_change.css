@@ -1,0 +1,62 @@
+/* * {border: 1px solid red;} */
+.posting_change {
+    background-color: rgb(249, 250, 251);
+    min-height: 300px;
+    border: 1px solid gainsboro;
+}
+
+.posting_change .data-posting {
+    padding: 4px;
+}
+
+.posting_change .data-posting input {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    padding: 3px 14px;
+    color: rgb(41, 57, 70);
+    background: transparent;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.posting_change .data-posting .text-input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 4px;
+    border: 1px solid gainsboro;
+    margin: 4px;
+    background-color: rgba(112, 128, 144, 0.109);
+}
+
+.posting_change .data-posting .file-input {
+    margin: 12px 0;
+    padding: 8px;
+}
+
+.posting_change .data-posting .file-input .poster {
+    width: 200px;
+    height: 200px;
+    border: 1px solid gainsboro;
+    /* margin: 32px 0; */
+}
+
+.posting_change .data-posting .file-input  label {
+    padding: 4px 10px;
+    font-size: 12px;
+}
+
+.posting_change .data-posting .file-input .poster img {
+    width: 100%;
+    height: 100%;
+}
+
+.posting_change .data-posting .file-input .main-input {display: none;}
+
+.posting_change .data-posting .file-input .knob-input {
+    display: inline-block;
+    margin: 7px 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
