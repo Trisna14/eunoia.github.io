@@ -53,8 +53,9 @@
 }
 
 .posting_plus .data-posting .file-input .poster {
-    width: 300px;
+    width: 270px;
     height: 300px;
+    border: 1px solid gainsboro;
 }
 
 .posting_plus .data-posting .knob {

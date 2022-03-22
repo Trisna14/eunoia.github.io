@@ -1,0 +1,91 @@
+.public_table {
+    /* border: 1px solid red; */
+    min-height: 200px;
+    position: relative;
+}
+
+.public_table .table_name {
+    text-transform: capitalize;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.public_table .search_engine {
+    border: 1px solid rgba(165, 162, 162, 0.712);
+    /* text-align: right; */
+    position: relative;
+    /* width: 55%; */
+    height: 35px;
+    margin-bottom: 20px;
+    display: inline-block;
+    box-shadow: 2px 2px 2px gainsboro;
+}
+
+.public_table .search_engine form {
+    /* border: 1px solid blue; */
+    display: block;
+    height: 100%;
+}
+
+
+.public_table .search_engine form input {
+    width: 400px;
+    height: 100%;
+    display: inline-block;
+    /* display: block; */
+    outline: none;
+    border: 0;
+    background: transparent;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    /* border: 1px solid rgb(221, 69, 9); */
+}
+
+.public_table .search_engine .knob {
+    display: inline-block;
+    /* position: absolute; */
+    font-size: 15px;
+    height: 100%;
+    /* width: 50px; */
+    text-align: center;
+    padding: 2px 12px;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+}
+
+.public_table table {
+    /* border: 1px solid black; */
+    /* min-width: 900px; */
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid rgba(15, 93, 240, 0.233);
+}
+
+.public_table table thead {
+    background-color: gainsboro;
+}
+
+.public_table table thead tr th {
+    text-align: left;
+}
+
+.public_table table thead tr th , .public_table table tbody tr td {
+    padding: 6px;
+}
+
+.public_table table tr:nth-child(2n) {
+    background-color: rgba(70, 131, 180, 0.144);
+}
+
+@media screen and (max-width: 1280px) {
+
+    .public_table .search_engine form input {
+        width: 200px;
+    }
+
+    .public_table table {
+        width: 100%;
+    }
+}

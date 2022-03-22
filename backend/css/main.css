@@ -7,6 +7,8 @@
 @import url('posting/posting.css');
 @import url('posting/posting_plus.css');
 @import url('posting/posting_change.css');
+@import url('database/database.css');
+@import url('public_table.css');
 
 * {
     /* border: 1px solid black; */
