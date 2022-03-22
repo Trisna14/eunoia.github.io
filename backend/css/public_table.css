@@ -81,11 +81,19 @@
 
 @media screen and (max-width: 1280px) {
 
+    /* .public_table {
+        margin: 6px;
+    } */
+
     .public_table .search_engine form input {
         width: 200px;
     }
 
     .public_table table {
         width: 100%;
+    }
+
+    .public_table table thead tr th:nth-child(3) , .public_table table tbody tr td:nth-child(3) {
+        display: none;
     }
 }
