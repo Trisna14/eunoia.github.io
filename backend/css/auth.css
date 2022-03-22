@@ -219,7 +219,7 @@
     color: black;
     color: steelblue;
     letter-spacing: 1px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 @media screen and (max-width: 1280px) {
@@ -230,6 +230,10 @@
     }  
     
     .login .wrapper-login {
+        width: 100%;
+    }
+
+    .registrasi .wrapper {
         width: 100%;
     }
 }
