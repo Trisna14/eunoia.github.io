@@ -74,6 +74,21 @@
     box-shadow: 2px 2px 2px gainsboro;
 }
 
+.login .wrapper-login .login-body .knob {
+    margin-top: 10px;
+}
+
+.login .wrapper-login .login-body .knob button {
+    padding: 10px 14px;
+    border: 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
 .login .wrapper-login .login-footer {
     /* border: 1px solid black; */
     position: absolute;
@@ -92,4 +107,17 @@
     color: rgb(25, 114, 66);
     font-size: 12px;
     letter-spacing: 1px;
+}
+
+
+@media screen and (max-width: 1280px) {
+
+    .login {
+        display: block;
+        padding: 20px;
+    }  
+    
+    .login .wrapper-login {
+        width: 100%;
+    }
 }

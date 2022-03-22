@@ -82,6 +82,7 @@
 @media screen and (max-width: 1280px) {
 
     .posting_plus {
+        margin: 10px;
         margin-top: 40px;
     }
 
