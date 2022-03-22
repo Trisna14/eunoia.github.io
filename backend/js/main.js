@@ -1,5 +1,9 @@
+
 import { navbar_knob } from "./navbar/navbar_knob.js";
-navbar_knob();
+if (document.getElementById('navbar_knob')) {
+    navbar_knob();
+}
+
 
 import { input_knob } from "./posting/posting_plus.js";
 if (document.getElementById('upload-knob')) {
@@ -17,3 +21,9 @@ if (document.getElementById('knob-input')) {
 } else {
     console.log('down');
 }
+
+import { upload_poster_auth } from "./auth/auth.js";
+if ( document.getElementById('main-knob')) {
+    upload_poster_auth();
+}
+

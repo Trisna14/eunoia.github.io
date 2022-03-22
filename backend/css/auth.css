@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
@@ -107,8 +108,119 @@
     color: rgb(25, 114, 66);
     font-size: 12px;
     letter-spacing: 1px;
+    text-transform: capitalize;
 }
 
+/* registrasi */
+.registrasi {
+    /* border: 1px solid black; */
+    /* min-height: 200px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 100vh; */
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.registrasi .wrapper {
+    width: 400px;
+    /* min-height: 380px; */
+    padding: 36px;
+    /* margin: 20px; */
+    border: 1px solid gainsboro;
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.747);
+    position: relative;
+}
+
+.registrasi .wrapper .wrapper-header .title-page {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 31px;
+    display: block;
+
+}
+
+.registrasi .wrapper .wrapper-body .text-input {
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid rgba(90, 97, 93, 0.671);
+    background-color: rgba(220, 220, 220, 0.253);
+    margin-bottom: 19px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.226);
+}
+
+.registrasi .wrapper .wrapper-body .text-input input {
+    width: 100%;
+    height: 100%;
+    padding: 0 24px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    letter-spacing: 1px;
+}
+
+
+
+.registrasi .wrapper .wrapper-body .knob {
+    text-align: right;
+    margin-top: 22px;
+}
+
+
+.registrasi .wrapper .wrapper-body .upload-input {
+    /* border: 1px solid black; */
+    margin-bottom: 40px;
+}
+
+.registrasi .wrapper .wrapper-body .upload-input .poster {
+    width: 100px;
+    height: 130px;
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+
+.registrasi .wrapper .wrapper-body .upload-input .main-input {
+    display: none;
+}
+
+.registrasi .wrapper .wrapper-body .upload-input .main-knob {
+    cursor: pointer;
+    padding: 4px;
+    color: rgb(80, 78, 78);
+    /* background-color: black; */
+    /* columns: ; */
+}
+
+.registrasi .wrapper .wrapper-body .upload-input .poster img {width: 100%;height: 100%;}
+
+.registrasi .wrapper .wrapper-body .knob button {
+    padding: 10px 14px;
+    border: 0;
+    background: black;
+    color: white;
+    font-size: 11px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.registrasi .wrapper .wrapper-footer .nav {
+    display: block;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.registrasi .wrapper .wrapper-footer .nav a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    color: steelblue;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
 
 @media screen and (max-width: 1280px) {
 
