@@ -1,7 +1,9 @@
 
 import { navbar_knob } from "./navbar/navbar_knob.js";
-if (document.getElementById('navbar_knob')) {
+if (document.getElementById('navbar-knob')) {
     navbar_knob();
+} else {
+
 }
 
 
