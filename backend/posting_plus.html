@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="../assets/fontawesome-free-6.1.0-web/css/all.css">
     <link rel="stylesheet" href="css/main.css">
 
+    <!-- Make sure the path to CKEditor is correct. -->
+    <script src="assets/ckeditor/ckeditor.js"></script>
+
     <title>Eunoia | Backend</title>
 </head>
 <body>
@@ -81,10 +84,30 @@
                         <div class="file-input">
                             <input id="main-upload" type="file" name="" id="">
                             <div class="poster">
-                                <img src="" alt="">
+                                <img src="imgs/user.png" alt="">
                             </div>
                             <br>
-                            <span id="upload-knob" class="knob-file">upload</span>
+                            <span id="upload-knob" class="knob-file">upload</span> : <span class="upload-name" id="upload-name">poster name</span>
+                        </div>
+
+                        <div class="text-maincontent">
+                            <textarea name="editor1" id="editor1" rows="10" cols="80">
+                                This is my textarea to be replaced with CKEditor 4.
+                            </textarea>
+
+                            <script>
+                                // Replace the <textarea id="editor1"> with a CKEditor 4
+                                // instance, using default configuration.
+                                CKEDITOR.replace( 'editor1', {
+                                    height: 600,
+                                    filebrowserUploadUrl : 'upload.php',
+                                    filebrowserUploadMethod : 'form'
+                                });
+                            </script>
+                        </div>
+
+                        <div class="knob">
+                            <button type="submit">posting</button>
                         </div>
 
                     </form>

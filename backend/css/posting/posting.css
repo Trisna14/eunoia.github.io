@@ -196,4 +196,9 @@
     } */
 
     .posting .locker table tr th.address , .posting .locker table tr td.address {display: none;}
+
+    .posting .nposting {
+        bottom: 40px;
+        right: 40px;
+    }
 }
