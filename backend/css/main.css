@@ -9,6 +9,7 @@
 @import url('posting/posting_change.css');
 @import url('database/database.css');
 @import url('public_table.css');
+@import url('comment/comment.css');
 
 * {
     /* border: 1px solid black; */

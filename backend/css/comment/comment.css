@@ -1,0 +1,14 @@
+.data-comment {
+    min-height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.089);
+    background-color: white;
+    padding: 12px;
+   
+}
+
+@media screen and (max-width: 1280px) {
+
+    .data-comment {
+        margin-top: 40px;
+    }
+}
