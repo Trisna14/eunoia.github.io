@@ -1,15 +1,15 @@
 .navbar {
     /* width: 200px; */
     /* border: 1px solid black; */
-    min-height: 100vh;
-    height: 100vh;
+    /* min-height: 100vh; */
+    /* height: 100vh; */
     /* background-color: rgba(227, 235, 241, 0.493); */
     background-color: rgb(13, 111, 240);
     /* padding: 16px; */
-    /* position: absolute; */
+    position: absolute;
 
-    position: fixed;
-    overflow-y: scroll;
+    /* position: fixed; */
+    /* overflow-y: scroll; */
     display: block;
     border: 1px solid rgba(107, 163, 209, 0.089);
     /* overflow: scroll; */
@@ -20,8 +20,8 @@
 
 .navbar .navbar-header {
     padding: 17px;
-    background-color: rgba(233, 242, 248, 0.424);
-    border: 1px solid rgba(251, 251, 251, 0.815);
+    background-color: rgba(12, 67, 104, 0.959);
+    /* border: 1px solid rgba(251, 251, 251, 0.815); */
 }
 
 .navbar .navbar-header .title-navbar {

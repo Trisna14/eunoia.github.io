@@ -10,6 +10,7 @@
 @import url('database/database.css');
 @import url('public_table.css');
 @import url('comment/comment.css');
+@import url('user/user.css');
 
 * {
     /* border: 1px solid black; */
