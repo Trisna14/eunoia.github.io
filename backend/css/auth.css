@@ -110,7 +110,7 @@
     color: rgb(25, 114, 66);
     font-size: 12px;
     letter-spacing: 1px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
 }
 
 /* registrasi */
@@ -181,8 +181,26 @@
 .registrasi .wrapper .wrapper-body .upload-input .poster {
     width: 100px;
     height: 130px;
-    border: 1px solid gainsboro;
+    border: 1px dashed gainsboro;
     margin-bottom: 10px;
+    position: relative;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.548);
+}
+
+.registrasi .wrapper .wrapper-body .upload-input .poster .mark {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.registrasi .wrapper .wrapper-body .upload-input .poster .mark p {
+    display: inline-block;
+    font-size: 95px;
+    color: gainsboro;
 }
 
 .registrasi .wrapper .wrapper-body .upload-input .main-input {
@@ -197,7 +215,17 @@
     /* columns: ; */
 }
 
-.registrasi .wrapper .wrapper-body .upload-input .poster img {width: 100%;height: 100%;}
+.registrasi .wrapper .wrapper-body .upload-input .input-name {
+    margin: 8px;
+    color: gray;
+    display: inline-block;
+}
+
+.registrasi .wrapper .wrapper-body .upload-input .poster img {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
 
 .registrasi .wrapper .wrapper-body .knob button {
     padding: 10px 14px;

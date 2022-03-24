@@ -3,7 +3,9 @@
     min-height: 200px;
     /* background-color: white; */
     /* border: 1px solid rgba(220, 220, 220, 0.877); */
-    /* background-color: white; */
+    background-color: white;
+    padding: 6px;
+    border: 1px solid rgba(220, 220, 220, 0.795);
 }
 
 .home .wrapper_tub {

@@ -37,9 +37,27 @@
 
 .posting_change .data-posting .file-input .poster {
     width: 200px;
-    height: 200px;
-    border: 1px solid gainsboro;
+    height: 250px;
+    border: 1px dashed gainsboro;
     /* margin: 32px 0; */
+    position: relative;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.322);
+}
+
+.posting_change .data-posting .file-input .poster .mark {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.posting_change .data-posting .file-input .poster .mark p {
+    display: inline-block;
+    font-size: 90px;
+    color: gainsboro;
 }
 
 .posting_change .data-posting .file-input  label {
@@ -50,6 +68,8 @@
 .posting_change .data-posting .file-input .poster img {
     width: 100%;
     height: 100%;
+    position: absolute;
+    display: none;
 }
 
 .posting_change .data-posting .file-input .main-input {display: none;}

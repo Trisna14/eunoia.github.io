@@ -53,9 +53,42 @@
 }
 
 .posting_plus .data-posting .file-input .poster {
-    width: 270px;
-    height: 300px;
-    border: 1px solid gainsboro;
+    width: 230px;
+    height: 270px;
+    border: 1px dashed gainsboro;
+    position: relative;
+    box-shadow: 2px 2px 2px gainsboro;
+    background-color: whitesmoke;
+}
+
+.posting_plus .data-posting .file-input .poster .mark {
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    position: absolute;
+    z-index: 5;
+
+}
+
+.posting_plus .data-posting .file-input .poster .mark p {
+    display: inline-block;
+    font-size: 90px;
+    color: rgba(128, 128, 128, 0.65);
+}
+
+.posting_plus .data-posting .file-input .poster img {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: none;
+    position: absolute;
+    top: 0;
+    border: none;
+    
 }
 
 .posting_plus .data-posting .knob {
