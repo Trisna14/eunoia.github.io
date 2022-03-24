@@ -20,7 +20,7 @@
 
 .navbar .navbar-header {
     padding: 17px;
-    background-color: rgba(12, 67, 104, 0.959);
+    /* background-color: rgba(12, 67, 104, 0.959); */
     /* border: 1px solid rgba(251, 251, 251, 0.815); */
 }
 
@@ -149,6 +149,10 @@
         transition: 0.8s all;
         background-color: rgb(246, 193, 16);
         background-color: rgb(13, 111, 240);
+        overflow-y: scroll;
+        position: fixed;
+        z-index: 10;
+        height: 100vh;
     }
 
     .knob_show {
